@@ -6,15 +6,18 @@
     font-family: 'Rubik Mono One', sans-serif;
 }
 
+/* Regola css per nascondere scrollbar */
 body {
     overflow: hidden;
 }
 
+/* Regola css generale per ogni contenitore per formattare alteza e larghezza */
 .view {
     height: 100vh;
     width: 100%;
 }
 
+/* Regole css contenitori per assegnare il colore di bg */
 div.first-container {
     position: relative;
     background-color: red;
@@ -30,6 +33,7 @@ div.third-container {
     background-color: yellow;
 }
 
+/* Regola css per andare a centrare gli elementi */
 article {
     position: absolute;
     top: 50%;
@@ -37,6 +41,7 @@ article {
     transform: translate(-50% , -50%);
 }
 
+/* Regole css per la colorazione e formattazione del testo */
 article h1 {
     text-align: center;
     font-size: 50px;
@@ -48,6 +53,7 @@ article h1 {
     color: green;
 }
 
+/* Regole css per fissare il nav al top della pagina */
 nav {
     position: fixed;
     right: 0;
@@ -55,6 +61,7 @@ nav {
     z-index: 1;
 }
 
+/* Regole css per centrare e dare una formattazione adeguata ai numeri */
 a {
     text-decoration: none;
     color: black;
