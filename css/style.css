@@ -3,12 +3,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial;
+    font-family: 'Rubik Mono One', sans-serif;
 }
 
-/* body {
+body {
     overflow: hidden;
-} */
+}
 
 .view {
     height: 100vh;
@@ -49,6 +49,30 @@ article h1 {
 }
 
 nav {
-    background-color: hotpink;
-    height: 100px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+}
+
+li {
+    position: relative;
+    display: inline-block;
+    list-style-type: none;
+    margin: 10px 10px;
+    background-color: white;
+    font-weight: bold;
+    width: 35.2px;
+    height: 35.2px;
+    border-radius: 50%;
+    padding: 5px;
 }
